@@ -25,7 +25,7 @@ document.getElementById('prediction-form').addEventListener('submit', async func
   });
 
   try {
-    const response = await fetch('http://localhost:8000/predict', {
+    const response = await fetch('https://mental-health-score-1-orqw.onrender.com/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
